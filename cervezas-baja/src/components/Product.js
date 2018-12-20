@@ -17,10 +17,13 @@ function Product({ hit }) {
 				hit={hit}
 			/>
 			<p style={{ fontSize: '12px', margin: '10px' }}>
-				Beer Style: {hit.style}
+				Tipo de Cerveza: {hit.style}
+				<br />
+				Porcentaje de Alcohol (ABV): {hit.abv + '%'}
+				{/* {hit.description.length > 0 ? 'Descripcion:' + hit.description : ''} */}
 			</p>
 			<p style={{ fontSize: '12px', margin: '10px' }}>
-				Brewery: {hit.brewery.brewery_name}
+				Cervezeria: {hit.brewery.brewery_name}
 			</p>
 		</div>
 	);
