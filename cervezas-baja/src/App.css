@@ -22,9 +22,19 @@
 	color: #61dafb;
 }
 
+/* Styling the Algolia classes */
+.ais-Hits-list {
+	flex-direction: column;
+}
+.ais-Hits-list li {
+	width: 90%;
+	margin: 15px auto;
+}
+
 .beer-item {
 	width: 100%;
 }
+
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
