@@ -2,7 +2,6 @@ import React from 'react';
 import { InstantSearch, Hits, Highlight } from 'react-instantsearch-dom';
 
 function Product({ hit }) {
-	console.log(hit);
 	return (
 		<div className="beer-item" style={{ marginTop: '10px' }}>
 			<img
